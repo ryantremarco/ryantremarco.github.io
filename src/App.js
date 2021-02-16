@@ -9,6 +9,7 @@ const App = () => {
       flexDirection: "column",
     }
   }
+  
   return (
     <div style={classes.app}>
       <Home/>

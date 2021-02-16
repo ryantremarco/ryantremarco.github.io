@@ -7,6 +7,7 @@ const ContentPage = ({ children }) => {
       flex: 1,
     }
   }
+
   return <>
     <Navbar />
     <section style={classes.mainContent} className="section">
@@ -16,7 +17,10 @@ const ContentPage = ({ children }) => {
     </section>
     <footer className="footer">
       <div className="content has-text-centered">
-        Made with <i class="fas fa-heart" />
+        Made with <i class="fas fa-heart" /> using
+        <strong><a target="_" href="https://bulma.io"> Bulma </a></strong>
+        and
+        <strong><a target="_" href="https://reactjs.org"> React </a></strong>
       </div>
     </footer>
   </>
