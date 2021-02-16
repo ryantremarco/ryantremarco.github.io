@@ -1,11 +1,14 @@
 import React from 'react';
+import Navbar from '../components/Navbar';
 
 const Home = () => (
   <>
-    <h1 className="title">Ryan Tremarco</h1>
-    <p className="subtitle">
-      Content incoming
-    </p>
+    <Navbar/>
+    <section className="section">
+      <div className="container">
+        Content incoming :)
+      </div>
+    </section>
   </>
 )
 
