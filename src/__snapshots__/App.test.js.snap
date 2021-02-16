@@ -1,12 +1,135 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders learn react link 1`] = `
-<div>
-  <h1>
-    Ryan Tremarco
-  </h1>
-  <p>
-    Eventually this will have information but for now, enjoy this text with zero styling.
-  </p>
+<div
+  style={
+    Object {
+      "display": "flex",
+      "flexDirection": "column",
+      "minHeight": "100vh",
+    }
+  }
+>
+  <nav
+    className="navbar"
+  >
+    <div
+      className="navbar-brand"
+    >
+      <a
+        className="navbar-item"
+        href="/"
+      >
+        <h1
+          className="title"
+        >
+          Ryan Tremarco
+        </h1>
+      </a>
+    </div>
+    <div
+      className="navbar-start"
+    >
+      <a
+        className="navbar-item"
+        href="/"
+      >
+        Home
+      </a>
+      <a
+        className="navbar-item"
+        href="/about"
+      >
+        About Me
+      </a>
+      <a
+        className="navbar-item"
+        href="/dev"
+      >
+        Development
+      </a>
+      <a
+        className="navbar-item"
+        href="/misc"
+      >
+        Misc
+      </a>
+    </div>
+    <div
+      className="navbar-end"
+    >
+      <div
+        class="navbar-item"
+      >
+        <div
+          class="field is-grouped"
+        >
+          <p
+            class="control"
+          >
+            <a
+              class="button is-primary"
+              href="/contact"
+            >
+              <span
+                class="icon"
+              >
+                <i
+                  class="fas fa-envelope"
+                />
+              </span>
+              <span>
+                Contact
+              </span>
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <section
+    className="section"
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <div
+      className="container"
+    >
+      Content incoming :)
+    </div>
+  </section>
+  <footer
+    className="footer"
+  >
+    <div
+      className="content has-text-centered"
+    >
+      Made with 
+      <i
+        class="fas fa-heart"
+      />
+       using
+      <strong>
+        <a
+          href="https://bulma.io"
+          target="_"
+        >
+           Bulma 
+        </a>
+      </strong>
+      and
+      <strong>
+        <a
+          href="https://reactjs.org"
+          target="_"
+        >
+           React 
+        </a>
+      </strong>
+    </div>
+  </footer>
 </div>
 `;
