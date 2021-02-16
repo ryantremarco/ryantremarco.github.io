@@ -1,6 +1,6 @@
 import React from 'react';
-import ContentPage from '../components/ContentPage';
-import Navbar from '../components/Navbar';
+import ContentPage from '../../components/ContentPage';
+import Navbar from '../../components/Navbar';
 
 const Home = () => (
   <ContentPage>
