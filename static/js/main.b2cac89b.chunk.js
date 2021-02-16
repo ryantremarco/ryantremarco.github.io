@@ -1,2 +1,0 @@
-(this.webpackJsonptremarco=this.webpackJsonptremarco||[]).push([[0],{9:function(e,t,n){"use strict";n.r(t);var c=n(1),r=n.n(c),s=n(3),i=n.n(s),a=n(0),o=function(){return Object(a.jsxs)(a.Fragment,{children:[Object(a.jsx)("h1",{className:"title",children:"Ryan Tremarco"}),Object(a.jsx)("p",{className:"subtitle",children:"Content incoming"})]})},j=function(){return Object(a.jsx)(o,{})};i.a.render(Object(a.jsx)(r.a.StrictMode,{children:Object(a.jsx)(j,{})}),document.getElementById("root"))}},[[9,1,2]]]);
-//# sourceMappingURL=main.b2cac89b.chunk.js.map
