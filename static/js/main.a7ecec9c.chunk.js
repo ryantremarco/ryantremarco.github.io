@@ -1,2 +1,0 @@
-(this.webpackJsonptremarco=this.webpackJsonptremarco||[]).push([[0],{9:function(t,e,n){"use strict";n.r(e);var r=n(1),c=n.n(r),i=n(3),o=n.n(i),s=n(0),a=function(){return Object(s.jsxs)("div",{children:[Object(s.jsx)("h1",{children:"Ryan Tremarco"}),Object(s.jsx)("p",{children:"Eventually this will have information but for now, enjoy this text with zero styling."})]})};o.a.render(Object(s.jsx)(c.a.StrictMode,{children:Object(s.jsx)(a,{})}),document.getElementById("root"))}},[[9,1,2]]]);
-//# sourceMappingURL=main.a7ecec9c.chunk.js.map
