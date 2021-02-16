@@ -1,15 +1,11 @@
 import React from 'react';
+import ContentPage from '../components/ContentPage';
 import Navbar from '../components/Navbar';
 
 const Home = () => (
-  <>
-    <Navbar/>
-    <section className="section">
-      <div className="container">
-        Content incoming :)
-      </div>
-    </section>
-  </>
+  <ContentPage>
+    Content incoming :)
+  </ContentPage>
 )
 
 export default Home;
