@@ -7,7 +7,7 @@ const Navbar = () => {
 
   const NavbarLink = ({to, button=false, children}) => (
     <Link 
-      className={`navbar-item ${button ? 'button is-primary' : ''}`}
+      className={`navbar-item ${button ? 'button' : ''}`}
       to={to}
       // Bulma normally handles this, but not the link resolves to the current component (/, /home)
       onClick={() => setBugerActive(false)}
@@ -16,10 +16,10 @@ const Navbar = () => {
     </Link>
   )
 
-  return <nav className="navbar">
+  return <nav className="navbar is-primary">
     <div className="navbar-brand">
       <Link className="navbar-item" to="/">
-        <p className="title">Ryan Tremarco</p>
+        <p className="title is-size-3">Ryan Tremarco</p>
       </Link>
       <a 
         class={`navbar-burger burger ${burgerActive? 'is-active' : ''}`}

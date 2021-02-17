@@ -11,7 +11,7 @@ exports[`renders learn react link 1`] = `
   }
 >
   <nav
-    className="navbar"
+    className="navbar is-primary"
   >
     <div
       className="navbar-brand"
@@ -22,7 +22,7 @@ exports[`renders learn react link 1`] = `
         onClick={[Function]}
       >
         <p
-          className="title"
+          className="title is-size-3"
         >
           Ryan Tremarco
         </p>
@@ -96,7 +96,7 @@ exports[`renders learn react link 1`] = `
               class="control"
             >
               <a
-                className="navbar-item button is-primary"
+                className="navbar-item button"
                 href="#/contact"
                 onClick={[Function]}
               >
@@ -180,14 +180,18 @@ exports[`renders learn react link 1`] = `
             href="#/dev"
             onClick={[Function]}
           >
-            my work
+            <strong>
+              my work
+            </strong>
           </a>
            or 
           <a
             href="#/about"
             onClick={[Function]}
           >
-            my other interests
+            <strong>
+              my other interests
+            </strong>
           </a>
            while you're here.
         </p>

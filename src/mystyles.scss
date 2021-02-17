@@ -1,2 +1,13 @@
 @charset "utf-8";
+
+@import "../node_modules/bulmaswatch/journal/variables";
 @import "../node_modules/bulma/bulma.sass";
+@import "../node_modules/bulmaswatch/journal/overrides";
+
+.title {
+  text-transform: uppercase;
+}
+
+.button {
+  text-transform: uppercase;
+}

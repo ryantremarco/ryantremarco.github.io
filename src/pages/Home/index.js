@@ -20,7 +20,7 @@ const Home = () => (
       <p>
         I'm <strong>Ryan</strong>, and I'm a full-stack web developer currently based in the <strong>United Kingdom</strong>.<br/>
         I am an <strong>innovation advocate</strong>, and I'm keenly interested in complex, data-oriented <strong>problem solving</strong>.<br/>
-        Why not read more about <Link to="/dev">my work</Link> or <Link to="/about">my other interests</Link> while you're here.
+        Why not read more about <Link to="/dev"><strong>my work</strong></Link> or <Link to="/about"><strong>my other interests</strong></Link> while you're here.
       </p>
     </section>
   </ContentPage>
