@@ -1,7 +1,8 @@
 import React from 'react';
 import { HashRouter as Router, Route, Switch } from 'react-router-dom';
+import ComingSoon from './pages/ComingSoon';
 import Home from "./pages/Home";
-import NotFound from './pages/Home/NotFound';
+import NotFound from './pages/NotFound';
 
 const App = () => {
   const classes = {
@@ -16,8 +17,8 @@ const App = () => {
     <div style={classes.app}>
       <Router basename="/">
         <Switch>
-          <Route exact path="/" component={Home}/>
-          <Route path="/home" component={Home}/>
+          <Route exact path={["/", "/home"]} component={Home}/>
+          <Route path={["/about", "/dev", "/misc"]} component={ComingSoon}/>
           <Route component={NotFound}/>
         </Switch>
       </Router>

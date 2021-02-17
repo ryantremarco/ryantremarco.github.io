@@ -1,20 +1,19 @@
 import React from 'react';
-import ContentPage from '../../../components/ContentPage';
+import ContentPage from '../../components/ContentPage';
 
-const NotFound = () => (
+const ErrorPage = ({title, children}) => (
   <ContentPage>
     <section className="hero">
       <div className="hero-body has-text-centered">
         <h2 className="title">
-          404
+          {title}
         </h2>
         <p className="subtitle">
-          Looks like this place doesn't exist.<br/>
-          Probably calls for an existential crisis, wouldn't you say?
+          {children}
         </p>
       </div>
     </section>
   </ContentPage>
 )
 
-export default NotFound;
+export default ErrorPage;
