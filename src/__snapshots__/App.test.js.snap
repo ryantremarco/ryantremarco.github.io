@@ -27,68 +27,92 @@ exports[`renders learn react link 1`] = `
           Ryan Tremarco
         </h1>
       </a>
-    </div>
-    <div
-      className="navbar-start"
-    >
       <a
-        className="navbar-item"
-        href="#/"
+        class="navbar-burger burger "
+        data-target="navbar-content"
         onClick={[Function]}
       >
-        Home
-      </a>
-      <a
-        className="navbar-item"
-        href="#/about"
-        onClick={[Function]}
-      >
-        About Me
-      </a>
-      <a
-        className="navbar-item"
-        href="#/dev"
-        onClick={[Function]}
-      >
-        Development
-      </a>
-      <a
-        className="navbar-item"
-        href="#/misc"
-        onClick={[Function]}
-      >
-        Misc
+        <span />
+        <span
+          aria-hidden="true"
+        />
+        <span
+          aria-hidden="true"
+        />
+        <span
+          aria-hidden="true"
+        />
+        <span
+          aria-hidden="true"
+        />
       </a>
     </div>
     <div
-      className="navbar-end"
+      className="navbar-menu "
+      id="navbar-content"
     >
       <div
-        class="navbar-item"
+        className="navbar-start"
+      >
+        <a
+          className="navbar-item "
+          href="#/"
+          onClick={[Function]}
+        >
+          Home
+        </a>
+        <a
+          className="navbar-item "
+          href="#/about"
+          onClick={[Function]}
+        >
+          About Me
+        </a>
+        <a
+          className="navbar-item "
+          href="#/dev"
+          onClick={[Function]}
+        >
+          Development
+        </a>
+        <a
+          className="navbar-item "
+          href="#/misc"
+          onClick={[Function]}
+        >
+          Misc
+        </a>
+      </div>
+      <div
+        className="navbar-end"
       >
         <div
-          class="field is-grouped"
+          class="navbar-item"
         >
-          <p
-            class="control"
+          <div
+            class="field is-grouped"
           >
-            <a
-              class="button is-primary"
-              href="#/contact"
-              onClick={[Function]}
+            <p
+              class="control"
             >
-              <span
-                class="icon"
+              <a
+                className="navbar-item button is-primary"
+                href="#/contact"
+                onClick={[Function]}
               >
-                <i
-                  class="fas fa-envelope"
-                />
-              </span>
-              <span>
-                Contact
-              </span>
-            </a>
-          </p>
+                <span
+                  class="icon"
+                >
+                  <i
+                    class="fas fa-envelope"
+                  />
+                </span>
+                <span>
+                  Contact
+                </span>
+              </a>
+            </p>
+          </div>
         </div>
       </div>
     </div>
