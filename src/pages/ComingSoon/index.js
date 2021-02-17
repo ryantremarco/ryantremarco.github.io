@@ -4,7 +4,7 @@ import ErrorPage from '../../components/ErrorPage';
 const ComingSoon = () => (
   <ErrorPage title="Coming soon...">
     Looks like there's nothing here yet.<br/>
-    Check back later to see if something show up!
+    Check back later to see if something shows up!
   </ErrorPage>
 );
 

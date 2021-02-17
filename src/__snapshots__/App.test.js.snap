@@ -21,11 +21,11 @@ exports[`renders learn react link 1`] = `
         href="#/"
         onClick={[Function]}
       >
-        <h1
+        <p
           className="title"
         >
           Ryan Tremarco
-        </h1>
+        </p>
       </a>
       <a
         class="navbar-burger burger "
@@ -118,7 +118,7 @@ exports[`renders learn react link 1`] = `
     </div>
   </nav>
   <section
-    className="section"
+    className=""
     style={
       Object {
         "flex": 1,
@@ -126,9 +126,72 @@ exports[`renders learn react link 1`] = `
     }
   >
     <div
-      className="container"
+      className=""
     >
-      Content incoming :)
+      <div
+        className="hero is-primary has-text-centered"
+      >
+        <div
+          className="hero-body"
+        >
+          <h1
+            class="is-size-1 title"
+          >
+            Ryan Tremarco
+          </h1>
+          <p
+            class="is-size-3 subtitle"
+          >
+            Professional Full-Stack Engineering at its Finest.
+          </p>
+        </div>
+      </div>
+      <section
+        className="section has-text-centered"
+      >
+        <p
+          className="is-size-4"
+        >
+          Hi.
+        </p>
+        <p>
+          I'm 
+          <strong>
+            Ryan
+          </strong>
+          , and I'm a full-stack web developer currently based in the 
+          <strong>
+            United Kingdom
+          </strong>
+          .
+          <br />
+          I am an 
+          <strong>
+            innovation advocate
+          </strong>
+          , and I'm keenly interested in complex, data-oriented 
+          <strong>
+            problem solving
+          </strong>
+          .
+          <br />
+          Why not read more about 
+          <a
+            href="#/dev"
+            onClick={[Function]}
+          >
+            my work
+          </a>
+           or 
+          <a
+            href="#/about"
+            onClick={[Function]}
+          >
+            my other interests
+          </a>
+           while you're here.
+        </p>
+      </section>
     </div>
   </section>
   <footer

@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from '../Navbar';
 
-const ContentPage = ({ children }) => {
+const ContentPage = ({ padding=true, children }) => {
   const classes = {
     mainContent: {
       flex: 1,
@@ -10,8 +10,8 @@ const ContentPage = ({ children }) => {
 
   return <>
     <Navbar />
-    <section style={classes.mainContent} className="section">
-      <div className="container">
+    <section style={classes.mainContent} className={padding? 'section' : ''}>
+      <div className={padding? 'container' : ''}>
         {children}
       </div>
     </section>

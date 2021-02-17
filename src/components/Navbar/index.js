@@ -19,7 +19,7 @@ const Navbar = () => {
   return <nav className="navbar">
     <div className="navbar-brand">
       <Link className="navbar-item" to="/">
-        <h1 className="title">Ryan Tremarco</h1>
+        <p className="title">Ryan Tremarco</p>
       </Link>
       <a 
         class={`navbar-burger burger ${burgerActive? 'is-active' : ''}`}
