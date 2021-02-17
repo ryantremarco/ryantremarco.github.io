@@ -1,28 +1,29 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => (
   <nav className="navbar">
     <div className="navbar-brand">
-      <a className="navbar-item" href="/">
+      <Link className="navbar-item" to="/">
         <h1 className="title">Ryan Tremarco</h1>
-      </a>
+      </Link>
     </div>
     <div className="navbar-start">
-      <a className="navbar-item" href="/">Home</a>
-      <a className="navbar-item" href="/about">About Me</a>
-      <a className="navbar-item" href="/dev">Development</a>
-      <a className="navbar-item" href="/misc">Misc</a>
+      <Link className="navbar-item" to="/">Home</Link>
+      <Link className="navbar-item" to="/about">About Me</Link>
+      <Link className="navbar-item" to="/dev">Development</Link>
+      <Link className="navbar-item" to="/misc">Misc</Link>
     </div>
     <div className="navbar-end">
       <div class="navbar-item">
         <div class="field is-grouped">
           <p class="control">
-            <a class="button is-primary" href="/contact">
+            <Link class="button is-primary" to="/contact">
             <span class="icon">
               <i class="fas fa-envelope"></i>
             </span>
             <span>Contact</span>
-          </a>
+          </Link>
           </p>
         </div>
       </div>

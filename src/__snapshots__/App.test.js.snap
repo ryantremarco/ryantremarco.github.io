@@ -18,7 +18,8 @@ exports[`renders learn react link 1`] = `
     >
       <a
         className="navbar-item"
-        href="/"
+        href="#/"
+        onClick={[Function]}
       >
         <h1
           className="title"
@@ -32,25 +33,29 @@ exports[`renders learn react link 1`] = `
     >
       <a
         className="navbar-item"
-        href="/"
+        href="#/"
+        onClick={[Function]}
       >
         Home
       </a>
       <a
         className="navbar-item"
-        href="/about"
+        href="#/about"
+        onClick={[Function]}
       >
         About Me
       </a>
       <a
         className="navbar-item"
-        href="/dev"
+        href="#/dev"
+        onClick={[Function]}
       >
         Development
       </a>
       <a
         className="navbar-item"
-        href="/misc"
+        href="#/misc"
+        onClick={[Function]}
       >
         Misc
       </a>
@@ -69,7 +74,8 @@ exports[`renders learn react link 1`] = `
           >
             <a
               class="button is-primary"
-              href="/contact"
+              href="#/contact"
+              onClick={[Function]}
             >
               <span
                 class="icon"

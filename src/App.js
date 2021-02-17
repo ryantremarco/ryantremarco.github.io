@@ -1,5 +1,7 @@
 import React from 'react';
+import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 import Home from "./pages/Home";
+import NotFound from './pages/Home/NotFound';
 
 const App = () => {
   const classes = {
@@ -12,7 +14,13 @@ const App = () => {
 
   return (
     <div style={classes.app}>
-      <Home/>
+      <Router basename="/">
+        <Switch>
+          <Route exact path="/" component={Home}/>
+          <Route path="/home" component={Home}/>
+          <Route component={NotFound}/>
+        </Switch>
+      </Router>
     </div>
   );
 }
