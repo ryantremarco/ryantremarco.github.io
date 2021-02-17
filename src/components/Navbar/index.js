@@ -19,11 +19,11 @@ const Navbar = () => (
         <div class="field is-grouped">
           <p class="control">
             <Link class="button is-primary" to="/contact">
-            <span class="icon">
-              <i class="fas fa-envelope"></i>
-            </span>
-            <span>Contact</span>
-          </Link>
+              <span class="icon">
+                <i class="fas fa-envelope"></i>
+              </span>
+              <span>Contact</span>
+            </Link>
           </p>
         </div>
       </div>
