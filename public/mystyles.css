@@ -7940,8 +7940,12 @@ h6 {
 .intro-name {
   font-size: 3em; }
 
+.avoid-wrap {
+  display: inline-block; }
+
 .intro-para {
-  font-size: 1.25em; }
+  font-size: 1.25em;
+  padding-bottom: 50px; }
 
 .hero-content {
   width: 100%; }
