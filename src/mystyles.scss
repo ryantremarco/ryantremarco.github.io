@@ -1,8 +1,8 @@
 @charset "utf-8";
 
-@import "../node_modules/bulmaswatch/journal/variables";
+@import "../node_modules/bulmaswatch/lux/variables";
 @import "../node_modules/bulma/bulma.sass";
-@import "../node_modules/bulmaswatch/journal/overrides";
+@import "../node_modules/bulmaswatch/lux/overrides";
 
 .title {
   text-transform: uppercase;
@@ -10,4 +10,24 @@
 
 .button {
   text-transform: uppercase;
+}
+
+.navbar {
+  padding-right: 15px;
+}
+
+.intro-hello {
+  font-size: 4em;
+}
+
+.intro-name {
+  font-size: 3em;
+}
+
+.intro-para {
+  font-size: 1.25em;
+}
+
+.hero-content {
+  width: 100%;
 }

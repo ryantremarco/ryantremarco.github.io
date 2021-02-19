@@ -1,29 +1,23 @@
 import React from 'react';
-import { HashRouter as Router, Route, Switch } from 'react-router-dom';
-import ComingSoon from './pages/ComingSoon';
-import Home from "./pages/Home";
-import NotFound from './pages/NotFound';
+import { HashRouter } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+import Intro from './sections/Intro';
+import About from './sections/About';
+import Skills from './sections/Skills';
+import Experience from './sections/Experience';
+import Contact from './sections/Contact';
 
-const App = () => {
-  const classes = {
-    app: {
-      display: "flex",
-      minHeight: "100vh",
-      flexDirection: "column",
-    }
-  }
-
-  return (
-    <div style={classes.app}>
-      <Router basename="/">
-        <Switch>
-          <Route exact path={["/", "/home"]} component={Home}/>
-          <Route path={["/about", "/dev", "/misc", "/contact"]} component={ComingSoon}/>
-          <Route component={NotFound}/>
-        </Switch>
-      </Router>
-    </div>
-  );
-}
+const App = () => (
+  <HashRouter>
+    <Navbar/>
+    <Intro/>
+    <About/>
+    <Skills/>
+    <Experience/>
+    <Contact/>
+    <Footer/>
+  </HashRouter>
+);
 
 export default App;

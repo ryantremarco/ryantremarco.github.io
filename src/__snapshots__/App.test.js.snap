@@ -1,41 +1,18 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders learn react link 1`] = `
-<div
-  style={
-    Object {
-      "display": "flex",
-      "flexDirection": "column",
-      "minHeight": "100vh",
-    }
-  }
->
+Array [
   <nav
-    className="navbar is-primary"
+    className="navbar is-primary is-fixed-top"
   >
     <div
       className="navbar-brand"
     >
       <a
-        className="navbar-item"
-        href="#/"
-        onClick={[Function]}
-      >
-        <p
-          className="title is-size-3"
-        >
-          Ryan Tremarco
-        </p>
-      </a>
-      <a
         class="navbar-burger burger "
         data-target="navbar-content"
         onClick={[Function]}
       >
-        <span />
-        <span
-          aria-hidden="true"
-        />
         <span
           aria-hidden="true"
         />
@@ -52,152 +29,155 @@ exports[`renders learn react link 1`] = `
       id="navbar-content"
     >
       <div
-        className="navbar-start"
-      >
-        <a
-          className="navbar-item "
-          href="#/"
-          onClick={[Function]}
-        >
-          Home
-        </a>
-        <a
-          className="navbar-item "
-          href="#/about"
-          onClick={[Function]}
-        >
-          About Me
-        </a>
-        <a
-          className="navbar-item "
-          href="#/dev"
-          onClick={[Function]}
-        >
-          Development
-        </a>
-        <a
-          className="navbar-item "
-          href="#/misc"
-          onClick={[Function]}
-        >
-          Misc
-        </a>
-      </div>
-      <div
         className="navbar-end"
       >
-        <div
-          class="navbar-item"
+        <a
+          className="navbar-item "
+          href="#/#about"
+          onClick={[Function]}
         >
-          <div
-            class="field is-grouped"
-          >
-            <p
-              class="control"
-            >
-              <a
-                className="navbar-item button"
-                href="#/contact"
-                onClick={[Function]}
-              >
-                <span
-                  class="icon"
-                >
-                  <i
-                    class="fas fa-envelope"
-                  />
-                </span>
-                <span>
-                  Contact
-                </span>
-              </a>
-            </p>
-          </div>
-        </div>
+          About
+        </a>
+        <a
+          className="navbar-item "
+          href="#/#skills"
+          onClick={[Function]}
+        >
+          Skills
+        </a>
+        <a
+          className="navbar-item "
+          href="#/#experience"
+          onClick={[Function]}
+        >
+          Experience
+        </a>
+        <a
+          className="navbar-item "
+          href="#/#contact"
+          onClick={[Function]}
+        >
+          Contact
+        </a>
       </div>
     </div>
-  </nav>
+  </nav>,
   <section
-    className=""
-    style={
-      Object {
-        "flex": 1,
-      }
-    }
+    className="hero is-primary is-fullheight has-text-centered"
   >
     <div
-      className=""
+      className="hero-body"
     >
       <div
-        className="hero is-primary has-text-centered"
+        className="hero-content"
       >
-        <div
-          className="hero-body"
+        <section
+          className="section"
         >
-          <h1
-            class="is-size-1 title"
-          >
-            Ryan Tremarco
-          </h1>
           <p
-            class="is-size-3 subtitle"
+            className="intro-hello"
           >
-            Professional Full-Stack Engineering at its Finest.
+            Hey.
           </p>
-        </div>
-      </div>
-      <section
-        className="section has-text-centered"
-      >
-        <p
-          className="is-size-4"
+          <p
+            className="intro-name"
+          >
+            I'm Ryan Tremarco.
+          </p>
+          <p
+            className="intro-para"
+          >
+            I'm a full-stack Software Engineer, currently working for 
+            <strong>
+              Her Majesty's Government
+            </strong>
+             in the 
+            <strong>
+              United Kingdom
+            </strong>
+            .
+            <br />
+            I am an 
+            <strong>
+              innovation advocate
+            </strong>
+            , and I'm keenly interested in complex, data-oriented 
+            <strong>
+              problem solving
+            </strong>
+            .
+            <br />
+          </p>
+        </section>
+        <a
+          className="button is-success is-outlined is-medium"
+          href="mailto:ryantremarco@hotmail.co.uk"
         >
-          Hi.
-        </p>
-        <p>
-          I'm 
-          <strong>
-            Ryan
-          </strong>
-          , and I'm a full-stack web developer currently based in the 
-          <strong>
-            United Kingdom
-          </strong>
-          .
-          <br />
-          I am an 
-          <strong>
-            innovation advocate
-          </strong>
-          , and I'm keenly interested in complex, data-oriented 
-          <strong>
-            problem solving
-          </strong>
-          .
-          <br />
-          Why not read more about 
-          <a
-            href="#/dev"
-            onClick={[Function]}
-          >
-            <strong>
-              my work
-            </strong>
-          </a>
-           or 
-          <a
-            href="#/about"
-            onClick={[Function]}
-          >
-            <strong>
-              my other interests
-            </strong>
-          </a>
-           while you're here.
-        </p>
-      </section>
+          Get in touch
+        </a>
+      </div>
     </div>
-  </section>
+  </section>,
+  <section
+    className="section"
+    id="about"
+  >
+    <div
+      className="container"
+    >
+      <h1
+        className="title is-size-1 has-text-centered"
+      >
+        About
+      </h1>
+      About section coming soon
+    </div>
+  </section>,
+  <section
+    className="section"
+    id="skills"
+  >
+    <div
+      className="container"
+    >
+      <h1
+        className="title is-size-1 has-text-centered"
+      >
+        skills
+      </h1>
+      Skills section coming soon
+    </div>
+  </section>,
+  <section
+    className="section"
+    id="experience"
+  >
+    <div
+      className="container"
+    >
+      <h1
+        className="title is-size-1 has-text-centered"
+      >
+        Experience
+      </h1>
+      Experience section coming soon
+    </div>
+  </section>,
+  <section
+    className="section"
+    id="contact"
+  >
+    <div
+      className="container"
+    >
+      <h1
+        className="title is-size-1 has-text-centered"
+      >
+        Contact
+      </h1>
+      Contact section coming soon
+    </div>
+  </section>,
   <footer
     className="footer"
   >
@@ -227,6 +207,6 @@ exports[`renders learn react link 1`] = `
         </a>
       </strong>
     </div>
-  </footer>
-</div>
+  </footer>,
+]
 `;
