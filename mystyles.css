@@ -4064,7 +4064,7 @@ a.navbar-item,
   .navbar-link:focus-within,
   .navbar-link:hover,
   .navbar-link.is-active {
-    background-color: transparent;
+    background-color: #222;
     color: #fff; }
 
 .navbar-item {
@@ -4293,7 +4293,7 @@ a.navbar-item,
   .navbar-link.is-active:not(:focus):not(:hover) {
     background-color: transparent; }
   .navbar-item.has-dropdown:focus .navbar-link, .navbar-item.has-dropdown:hover .navbar-link, .navbar-item.has-dropdown.is-active .navbar-link {
-    background-color: transparent; } }
+    background-color: #222; } }
 
 .hero.is-fullheight-with-navbar {
   min-height: calc(100vh - 5rem); }
@@ -7932,7 +7932,8 @@ h6 {
   text-transform: uppercase; }
 
 .navbar {
-  padding-right: 15px; }
+  padding-right: 15px;
+  background: transparent; }
 
 .intro-hello {
   font-size: 4em; }
@@ -7953,4 +7954,5 @@ h6 {
   margin-top: 40px; }
 
 p {
+  margin-top: 10px;
   font-size: 1.1em; }
