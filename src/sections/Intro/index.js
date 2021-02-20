@@ -18,7 +18,7 @@ const Intro = () => (
           </p>
           <a
             href="mailto:ryantremarco@hotmail.co.uk"
-            className="button is-success is-outlined is-medium"
+            className="button is-success is-outlined is-medium contact-button"
           >
             Get in touch
           </a>
