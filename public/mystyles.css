@@ -7928,6 +7928,9 @@ h6 {
 .title {
   text-transform: uppercase; }
 
+.content {
+  padding: 0; }
+
 .button {
   text-transform: uppercase; }
 
@@ -7953,6 +7956,8 @@ h6 {
 .contact-button {
   margin-top: 40px; }
 
+.experience-pane {
+  margin-top: 10px; }
+
 p {
-  margin-top: 10px;
   font-size: 1.1em; }

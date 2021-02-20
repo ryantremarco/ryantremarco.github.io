@@ -9,6 +9,10 @@ $navbar-item-hover-background-color: $primary;
   text-transform: uppercase;
 }
 
+.content {
+  padding:  0;
+}
+
 .button {
   text-transform: uppercase;
 }
@@ -42,7 +46,10 @@ $navbar-item-hover-background-color: $primary;
   margin-top: 40px;
 }
 
-p {
+.experience-pane {
   margin-top: 10px;
+}
+
+p {
   font-size: 1.1em;
 }
