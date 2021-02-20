@@ -6,7 +6,7 @@ const PageSection = ({title, children, ...passThrough}) => (
       <h1 className="title is-size-1 has-text-centered">
         {title}
       </h1>
-      <div className="columns is-centered">
+      <div className="columns is-centered section-content">
         {children}
       </div>
     </div>

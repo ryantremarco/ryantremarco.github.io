@@ -1,6 +1,7 @@
 @charset "utf-8";
-
 @import "../node_modules/bulmaswatch/lux/variables";
+$navbar-item-hover-background-color: $primary; 
+
 @import "../node_modules/bulma/bulma.sass";
 @import "../node_modules/bulmaswatch/lux/overrides";
 
@@ -14,6 +15,7 @@
 
 .navbar {
   padding-right: 15px;
+  background: transparent;
 }
 
 .intro-hello {
@@ -41,5 +43,6 @@
 }
 
 p {
+  margin-top: 10px;
   font-size: 1.1em;
 }

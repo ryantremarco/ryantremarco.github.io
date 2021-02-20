@@ -17,7 +17,7 @@ const Navbar = () => {
     </HashLink>
   )
 
-  return <nav className="navbar is-primary is-fixed-top">
+  return <nav className="navbar is-fixed-top">
     <div className="navbar-brand">
       <a 
         class={`navbar-burger burger ${burgerActive? 'is-active' : ''}`}
