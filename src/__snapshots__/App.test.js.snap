@@ -109,13 +109,18 @@ Array [
     <div
       className="hero-footer"
     >
-      <section
-        className="section"
+      <div
+        className="intro-arrow"
       >
-        <i
-          className="fas fa-chevron-down is-size-3"
-        />
-      </section>
+        <a
+          href="#/#about"
+          onClick={[Function]}
+        >
+          <i
+            className="fas fa-chevron-down is-size-3"
+          />
+        </a>
+      </div>
     </div>
   </section>,
   <section
@@ -253,13 +258,13 @@ Array [
                 className="title is-size-4"
               >
                 <strong>
-                  Rust
+                  SQL; Mongo; Elastic
                 </strong>
               </h2>
               <p
                 className="subtitle"
               >
-                Hobbyist development 
+                Data persistence; FGS; Optimisation
               </p>
             </div>
             <div
@@ -301,13 +306,13 @@ Array [
                 className="title is-size-4"
               >
                 <strong>
-                  SQL; Mongo; Elastic
+                  Rust
                 </strong>
               </h2>
               <p
                 className="subtitle"
               >
-                Data persistence; FGS; Optimisation
+                Hobbyist development 
               </p>
             </div>
           </div>

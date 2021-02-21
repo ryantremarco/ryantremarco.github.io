@@ -3,10 +3,10 @@ import PageSection from "../../components/PageSection";
 const skills = [
   {name: "Java; SpringBoot", tldr: "Web API development; testing"},
   {name: "JavaScript; React", tldr: "Web UI development; testing"},
-  {name: "Rust", tldr: "Hobbyist development "},
+  {name: "SQL; Mongo; Elastic", tldr: "Data persistence; FGS; Optimisation"},
   {name: "AWS; OpenShift", tldr: "Product deployment; CICD management"},
   {name: "Linux Systems", tldr: "Development platform; Automation"},
-  {name: "SQL; Mongo; Elastic", tldr: "Data persistence; FGS; Optimisation"},
+  {name: "Rust", tldr: "Hobbyist development "},
 ];
 
 const Skills = () => (
@@ -22,7 +22,7 @@ const Skills = () => (
       </p>
       <div className="columns is-multiline is-centered skills-container">
         {skills.map(({name, tldr}) => (
-          <div className="column is-4 has-text-centered nudge-down">
+          <div className="column is-4 has-text-centered nudge-down" key={name}>
             <h2 className="title is-size-4"><strong>{name}</strong></h2>
             <p className="subtitle">
               {tldr}
