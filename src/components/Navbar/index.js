@@ -9,7 +9,8 @@ const Navbar = () => {
   useEffect(() => {
     const onScroll = () => {
       const currentScrollPos = window.pageYOffset;
-      document.getElementById("navbar").style.top = (scrollPosition > currentScrollPos)? "0px" : "-75px";
+      const navVisible =  (scrollPosition > currentScrollPos) || (currentScrollPos <= 0);
+      document.getElementById("navbar").style.top = navVisible? "0px" : "-75px";
       setScrollPosition(currentScrollPos);
     }
     window.addEventListener('scroll', onScroll);

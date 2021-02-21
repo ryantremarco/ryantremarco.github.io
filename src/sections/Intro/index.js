@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 
 const Intro = () => (
   <>
@@ -27,9 +27,11 @@ const Intro = () => (
         </div>
       </div>
       <div className="hero-footer">
-        <section className="section">
-          <i className="fas fa-chevron-down is-size-3"/>
-        </section>
+        <div className="intro-arrow">
+          <Link smooth to="#about">
+            <i className="fas fa-chevron-down is-size-3"/>
+          </Link>
+        </div>
       </div>
     </section>
   </>
