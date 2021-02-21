@@ -1,26 +1,37 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { HashLink } from 'react-router-hash-link';
 
 const Navbar = () => {
 
-  const [burgerActive, setBugerActive] = React.useState(false);
+  const [burgerActive, setBugerActive] = useState(false);
+  const [scrollPosition, setScrollPosition] = useState(0);
+
+  useEffect(() => {
+    const onScroll = () => {
+      const currentScrollPos = window.pageYOffset;
+      document.getElementById("navbar").style.top = (scrollPosition > currentScrollPos)? "0px" : "-75px";
+      setScrollPosition(currentScrollPos);
+    }
+    window.addEventListener('scroll', onScroll);
+    return () => window.removeEventListener("scroll", onScroll);
+  },[scrollPosition, setScrollPosition]);
 
   const NavbarLink = ({to, button=false, children}) => (
     <HashLink 
       className={`navbar-item ${button ? 'button' : ''}`}
       smooth
       to={to}
-      // Bulma normally handles this, but not the link resolves to the current component (/, /home)
+      // Bulma normally handles this, but not when using anchors :(
       onClick={() => setBugerActive(false)}
     >
       {children}
     </HashLink>
   )
 
-  return <nav className="navbar is-fixed-top">
+  return <nav id="navbar" className="navbar is-fixed-top">
     <div className="navbar-brand">
       <a 
-        class={`navbar-burger burger ${burgerActive? 'is-active' : ''}`}
+        className={`navbar-burger burger ${burgerActive? 'is-active' : ''}`}
         data-target="navbar-content"
         onClick={() => setBugerActive(!burgerActive)}
       >

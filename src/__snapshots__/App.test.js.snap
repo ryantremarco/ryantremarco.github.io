@@ -3,13 +3,14 @@
 exports[`renders learn react link 1`] = `
 Array [
   <nav
-    className="navbar is-primary is-fixed-top"
+    className="navbar is-fixed-top"
+    id="navbar"
   >
     <div
       className="navbar-brand"
     >
       <a
-        class="navbar-burger burger "
+        className="navbar-burger burger "
         data-target="navbar-content"
         onClick={[Function]}
       >
@@ -71,51 +72,50 @@ Array [
       <div
         className="hero-content"
       >
+        <p
+          className="intro-hello"
+        >
+          Hey.
+        </p>
+        <p
+          className="intro-name"
+        >
+          I'm 
+          <span
+            className="avoid-wrap"
+          >
+            Ryan Tremarco.
+          </span>
+        </p>
+        <p
+          className="intro-para"
+        >
+          I'm a full-stack Software Engineer, currently based in the United Kingdom.
+          <br />
+          I specialise in complex, data-oriented problem solving.
+        </p>
         <section
           className="section"
         >
-          <p
-            className="intro-hello"
+          <a
+            className="button is-success is-outlined is-medium"
+            href="mailto:ryantremarco@hotmail.co.uk"
           >
-            Hey.
-          </p>
-          <p
-            className="intro-name"
-          >
-            I'm Ryan Tremarco.
-          </p>
-          <p
-            className="intro-para"
-          >
-            I'm a full-stack Software Engineer, currently working for 
-            <strong>
-              Her Majesty's Government
-            </strong>
-             in the 
-            <strong>
-              United Kingdom
-            </strong>
-            .
-            <br />
-            I am an 
-            <strong>
-              innovation advocate
-            </strong>
-            , and I'm keenly interested in complex, data-oriented 
-            <strong>
-              problem solving
-            </strong>
-            .
-            <br />
-          </p>
+            Get in touch
+          </a>
         </section>
-        <a
-          className="button is-success is-outlined is-medium"
-          href="mailto:ryantremarco@hotmail.co.uk"
-        >
-          Get in touch
-        </a>
       </div>
+    </div>
+    <div
+      className="hero-footer"
+    >
+      <section
+        className="section"
+      >
+        <i
+          className="fas fa-chevron-down is-size-3"
+        />
+      </section>
     </div>
   </section>,
   <section
@@ -130,7 +130,57 @@ Array [
       >
         About
       </h1>
-      About section coming soon
+      <div
+        className="columns is-centered section-content"
+      >
+        <div
+          className="column is-4"
+        >
+          <h2
+            className="title is-size-4"
+          >
+            Me
+          </h2>
+          <p>
+            Hello! I'm Ryan, a full-stack Software Eningeer working for Her Majesty's Government in the UK.
+          </p>
+          <p
+            className="nudge-down"
+          >
+            Since completing a government apprenticeship scheme and obtaining my first-class honours degree, I've primarily been working on everything web application.
+          </p>
+          <p
+            className="nudge-down"
+          >
+            I am currently looking to progress my career further down into the tech stack - be it exlusively web backend, or systems development.
+          </p>
+        </div>
+        <div
+          className="column is-1"
+        />
+        <div
+          className="column is-4"
+        >
+          <h2
+            className="title is-size-4"
+          >
+            My Interests
+          </h2>
+          <p>
+            Because I intend to move to Japan soon, I have recently been spending a lot of my free time learning Japanese. I still have a ways to go, but it's a fun journey.
+          </p>
+          <p
+            className="nudge-down"
+          >
+            I enjoy playing around with technologies I don't get to use day-to-day ie. Rust, Ruby, and lately even some Haskell. This also extends to pretending that I'm a game developer every now and again.
+          </p>
+          <p
+            className="nudge-down"
+          >
+            Taking part in table-top roleplaying games is another hobby of mine, but I tend to roll a lot of 1s.
+          </p>
+        </div>
+      </div>
     </div>
   </section>,
   <section
@@ -143,9 +193,126 @@ Array [
       <h1
         className="title is-size-1 has-text-centered"
       >
-        skills
+        Skills
       </h1>
-      Skills section coming soon
+      <div
+        className="columns is-centered section-content"
+      >
+        <div
+          className="column is-10"
+        >
+          <p
+            className="has-text-centered"
+          >
+            Over my years as a Software Engineer, I have made use of wide variety of programming languages and technologies. Professionally, I primarily work with standard web development stacks but as a hobbiest, I like to venture further afield into lower-level technology.
+          </p>
+          <p
+            className="has-text-centered nudge-down"
+          >
+            Here are some highlights:
+          </p>
+          <div
+            className="columns is-multiline is-centered skills-container"
+          >
+            <div
+              className="column is-4 has-text-centered nudge-down"
+            >
+              <h2
+                className="title is-size-4"
+              >
+                <strong>
+                  Java; SpringBoot
+                </strong>
+              </h2>
+              <p
+                className="subtitle"
+              >
+                Web API development; testing
+              </p>
+            </div>
+            <div
+              className="column is-4 has-text-centered nudge-down"
+            >
+              <h2
+                className="title is-size-4"
+              >
+                <strong>
+                  JavaScript; React
+                </strong>
+              </h2>
+              <p
+                className="subtitle"
+              >
+                Web UI development; testing
+              </p>
+            </div>
+            <div
+              className="column is-4 has-text-centered nudge-down"
+            >
+              <h2
+                className="title is-size-4"
+              >
+                <strong>
+                  Rust
+                </strong>
+              </h2>
+              <p
+                className="subtitle"
+              >
+                Hobbyist development 
+              </p>
+            </div>
+            <div
+              className="column is-4 has-text-centered nudge-down"
+            >
+              <h2
+                className="title is-size-4"
+              >
+                <strong>
+                  AWS; OpenShift
+                </strong>
+              </h2>
+              <p
+                className="subtitle"
+              >
+                Product deployment; CICD management
+              </p>
+            </div>
+            <div
+              className="column is-4 has-text-centered nudge-down"
+            >
+              <h2
+                className="title is-size-4"
+              >
+                <strong>
+                  Linux Systems
+                </strong>
+              </h2>
+              <p
+                className="subtitle"
+              >
+                Development platform; Automation
+              </p>
+            </div>
+            <div
+              className="column is-4 has-text-centered nudge-down"
+            >
+              <h2
+                className="title is-size-4"
+              >
+                <strong>
+                  SQL; Mongo; Elastic
+                </strong>
+              </h2>
+              <p
+                className="subtitle"
+              >
+                Data persistence; FGS; Optimisation
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </section>,
   <section
@@ -160,7 +327,86 @@ Array [
       >
         Experience
       </h1>
-      Experience section coming soon
+      <div
+        className="columns is-centered section-content"
+      >
+        <div
+          className="column is-8"
+        >
+          <div
+            className="columns experience-pane"
+          >
+            <div
+              className="column is-2"
+            >
+              <h2
+                className="title is-size-4 has-text-right-tablet"
+              >
+                HMG
+              </h2>
+              <p
+                className="subtitle has-text-right-tablet"
+              >
+                2017 - ?
+              </p>
+            </div>
+            <div
+              className="column is-9 content"
+            >
+              <ul>
+                <li>
+                  Full-stack web development primarily using Java|SpringBoot and JavaScript|React to create apps for internal customers.
+                </li>
+                <li>
+                  Implementing good DevOps practices using OpenShift, AWS, and Jenkins.
+                </li>
+                <li>
+                  Leading internal multiple product development teams, in both technical and Agile capacities.
+                </li>
+                <li>
+                  Stakeholder management,requirements engineering, user acceptance testing, and UX research and design.
+                </li>
+                <li>
+                  Ensuring products adhere to internal and governmental accreditation standards.
+                </li>
+                <li>
+                  Working as part of a dedicated innovation team, tasked with investigating potential application of new technologies to business benefit.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div
+            className="columns experience-pane"
+          >
+            <div
+              className="column is-2"
+            >
+              <h2
+                className="title is-size-4 has-text-right-tablet"
+              >
+                VLDB
+              </h2>
+              <p
+                className="subtitle has-text-right-tablet"
+              >
+                2015
+              </p>
+            </div>
+            <div
+              className="column is-9 content"
+            >
+              <ul>
+                <li>
+                  Designed and developed a cross-platform Xamarin mobile app for an internal sales team to use with customers.
+                </li>
+                <li>
+                  Wrote automation scripts in Visual Basic for extracting, processing, and revisualising customer data.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </section>,
   <section
@@ -175,7 +421,31 @@ Array [
       >
         Contact
       </h1>
-      Contact section coming soon
+      <div
+        className="columns is-centered section-content"
+      >
+        <div
+          className="column is-6 has-text-centered"
+        >
+          <p
+            className="has-text-centered"
+          >
+            I'm currently looking for exciting  work opportunities in Japan.
+            <br />
+            If you think you have something I may be interested in (or you just want to say hi) please don't hesitate to send me a message.
+          </p>
+          <section
+            className="section"
+          >
+            <a
+              className="button is-primary is-medium"
+              href="mailto:ryantremarco@hotmail.co.uk"
+            >
+              Get in touch
+            </a>
+          </section>
+        </div>
+      </div>
     </div>
   </section>,
   <footer
@@ -186,7 +456,7 @@ Array [
     >
       Made with 
       <i
-        class="fas fa-heart"
+        className="fas fa-heart"
       />
        using
       <strong>
@@ -206,6 +476,18 @@ Array [
            React 
         </a>
       </strong>
+    </div>
+    <div
+      className="content has-text-centered is-size-3"
+    >
+      <a
+        href="https://github.com/ryantremarco/ryantremarco.github.io"
+        target="_"
+      >
+        <i
+          className="icon fab fa-github"
+        />
+      </a>
     </div>
   </footer>,
 ]

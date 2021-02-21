@@ -1,6 +1,6 @@
 @charset "utf-8";
 @import "../node_modules/bulmaswatch/lux/variables";
-$navbar-item-hover-background-color: $primary; 
+$navbar-item-hover-background-color: $primary;
 
 @import "../node_modules/bulma/bulma.sass";
 @import "../node_modules/bulmaswatch/lux/overrides";
@@ -18,8 +18,7 @@ $navbar-item-hover-background-color: $primary;
 }
 
 .navbar {
-  padding-right: 15px;
-  background: transparent;
+  transition: 0.3s;
 }
 
 .intro-hello {
@@ -47,13 +46,11 @@ $navbar-item-hover-background-color: $primary;
 }
 
 .skills-container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  div {
-    display: inline-block;
-    padding: 40px;
-  }
+  padding-top: 40px;
+}
+
+.footer {
+  padding-bottom: 3em;
 }
 
 p {

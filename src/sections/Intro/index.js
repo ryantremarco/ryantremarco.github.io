@@ -26,6 +26,11 @@ const Intro = () => (
           </section>
         </div>
       </div>
+      <div className="hero-footer">
+        <section className="section">
+          <i className="fas fa-chevron-down is-size-3"/>
+        </section>
+      </div>
     </section>
   </>
 )

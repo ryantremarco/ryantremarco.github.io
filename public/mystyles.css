@@ -7935,8 +7935,7 @@ h6 {
   text-transform: uppercase; }
 
 .navbar {
-  padding-right: 15px;
-  background: transparent; }
+  transition: 0.3s; }
 
 .intro-hello {
   font-size: 4em; }
@@ -7957,12 +7956,10 @@ h6 {
   margin-top: 10px; }
 
 .skills-container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap; }
-  .skills-container div {
-    display: inline-block;
-    padding: 40px; }
+  padding-top: 40px; }
+
+.footer {
+  padding-bottom: 3em; }
 
 p {
   font-size: 1.1em; }

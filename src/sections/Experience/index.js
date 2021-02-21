@@ -30,6 +30,13 @@ const Experience = () => (
             technical and Agile capacities.
           </li>
           <li>
+            Stakeholder management,requirements engineering, user acceptance testing, and UX research
+            and design.
+          </li>
+          <li>
+            Ensuring products adhere to internal and governmental accreditation standards.
+          </li>
+          <li>
             Working as part of a dedicated innovation team, tasked with 
             investigating potential application of new technologies to business 
             benefit.
