@@ -16,12 +16,14 @@ const Intro = () => (
             I'm a full-stack Software Engineer, currently based in the United Kingdom.<br/>
             I specialise in complex, data-oriented problem solving.
           </p>
-          <a
-            href="mailto:ryantremarco@hotmail.co.uk"
-            className="button is-success is-outlined is-medium contact-button"
-          >
-            Get in touch
-          </a>
+          <section className="section">
+            <a
+              href="mailto:ryantremarco@hotmail.co.uk"
+              className="button is-success is-outlined is-medium"
+            >
+              Get in touch
+            </a>
+          </section>
         </div>
       </div>
     </section>

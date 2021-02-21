@@ -8,14 +8,14 @@ const Contact = () => (
         If you think you have something I may be interested in (or you just want to 
         say hi) please don't hesitate to send me a message.
       </p>
-      <span className="contact-button">
+      <section className="section">
         <a
           href="mailto:ryantremarco@hotmail.co.uk"
-          className="button is-primary is-medium contact-button"
+          className="button is-primary is-medium"
         >
           Get in touch
         </a>
-      </span>
+      </section>
     </div>
   </PageSection>
 )
