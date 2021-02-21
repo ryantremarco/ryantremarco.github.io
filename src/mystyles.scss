@@ -46,6 +46,16 @@ $navbar-item-hover-background-color: $primary;
   margin-top: 10px;
 }
 
+.skills-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  div {
+    display: inline-block;
+    padding: 40px;
+  }
+}
+
 p {
   font-size: 1.1em;
 }
