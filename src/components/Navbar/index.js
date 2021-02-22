@@ -47,6 +47,11 @@ const Navbar = () => {
         <NavbarLink to="#skills">Skills</NavbarLink>
         <NavbarLink to="#experience">Experience</NavbarLink>
         <NavbarLink to="#contact">Contact</NavbarLink>
+        <a href="ryan-tremarco-cv.pdf" target="_" className="navbar-item">
+          <button className="button is-success is-outlined">
+            View CV
+          </button>
+        </a>
       </div>
     </div>
   </nav>
