@@ -13,7 +13,7 @@ const About = () => (
         honours degree, I've primarily been working on everything web application.
       </p>
       <p className="nudge-down">
-        I am currently looking to progress my career further down into the tech stack 
+        In the future, I want to progress my career further down into the tech stack 
         - be it exlusively web backend, or systems development.
       </p>
     </div>
