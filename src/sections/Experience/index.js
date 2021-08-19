@@ -6,7 +6,7 @@ const ExperiencePane = ({ company, date, children }) => (
       <h2 className="title is-size-4 has-text-right-tablet">{company}</h2>
       <p className="subtitle has-text-right-tablet">{date}</p>
     </div>
-    <div className="column is-9 content">
+    <div className="experience-details column is-9 content">
       {children}
     </div>
   </div>
@@ -15,7 +15,20 @@ const ExperiencePane = ({ company, date, children }) => (
 const Experience = () => (
   <PageSection title="Experience" id="experience">
     <div className="column is-8">
-      <ExperiencePane company="HMG" date="2017 - ?">
+      <ExperiencePane company="VISFO" date="2021 🠒 ?">
+        <p>
+          In my current role, I am responsible for writing API-layer applications in Golang using
+          Test-Driven Development practices. I develop and maintain the GCP-based infrastructure
+          underpinning those applications in dev-ops fashion.
+        </p>
+        <p>
+          In order to help with managing rapidly changing customer requirements, I have been
+          responsible for implementing Agile practices into an environment where there were no
+          official ways-of-working, and still maintain a guiding role during events and
+          ceremonies.
+        </p>
+      </ExperiencePane>
+      <ExperiencePane company="HMG" date="2017 🠒 2021">
         <ul>
           <li>
             Full-stack web development primarily using Java|SpringBoot
