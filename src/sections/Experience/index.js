@@ -14,7 +14,7 @@ const ExperiencePane = ({ company, date, children }) => (
 
 const Experience = () => (
   <PageSection title="Experience" id="experience">
-    <div className="column is-8">
+    <div className="column is-12">
       <ExperiencePane company="VISFO" date="2021 🠒 ?">
         <p>
           In my current role, I am responsible for writing API-layer applications in Golang using
