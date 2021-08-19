@@ -5,8 +5,8 @@ const About = () => (
     <div className="column is-4">
       <h2 className="title is-size-4">Me</h2>
       <p>
-        Hello! I'm Ryan, a <span className="avoid-wrap">back-end</span> Software Eningeer 
-        working for med-tech firm <a href="https://visformatics.net/"> Visfo</a> in the UK.
+        Hello! I'm Ryan, a <span className="avoid-wrap">back-end</span> Software Eningeer working
+        for med-tech firm <a href="https://visformatics.net/" target="_"> Visfo</a> in the UK.
       </p>
       <p className="nudge-down">
         Since completing a <span className="avoid-wrap">government-sponsored</span> apprenticeship
