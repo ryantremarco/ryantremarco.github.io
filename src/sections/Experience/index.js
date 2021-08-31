@@ -15,7 +15,7 @@ const ExperiencePane = ({ company, date, children, className}) => (
 const Experience = () => (
   <PageSection title="Experience" id="experience">
     <div className="column is-12">
-      <ExperiencePane company="VISFO" date="2021 🠒 ?">
+      <ExperiencePane company="VISFO" date="2021 - ?">
         <p>
           In my current role, I am responsible for writing API-layer applications in Golang using
           Test-Driven Development practices. I develop and maintain the GCP-based infrastructure
@@ -28,7 +28,7 @@ const Experience = () => (
           ceremonies.
         </p>
       </ExperiencePane>
-      <ExperiencePane className="nudge-down" company="HMG" date="2017 🠒 2021">
+      <ExperiencePane className="nudge-down" company="HMG" date="2017 - 2021">
         <p>
           In this role, I was responsible for designing, developing, and maintaining a range of
           software products for internal customers in other government departments.
