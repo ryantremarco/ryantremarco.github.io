@@ -12,7 +12,8 @@ const About = () => (
         Since completing a <span className="avoid-wrap">government-sponsored</span> apprenticeship
         scheme and obtaining my <span className="avoid-wrap">first-class</span> honours degree I 
         spent a number of years working <span className="avoid-wrap">full-stack</span> development,
-        but I have since transitioned to backe-end specific work.
+        but I have since transitioned to <span className="avoid-wrap">back-end</span> specific
+        work.
       </p>
       <p className="nudge-down">
         In the future, I intend to keep to <span className="avoid-wrap">back-end</span> web
@@ -33,11 +34,12 @@ const About = () => (
       <p className="nudge-down">
         I enjoy playing around with technologies I don't get to use 
         <span className="avoid-wrap">day-to-day</span> ie. Rust, Ruby, and even some purely 
-        functional tech like Haskell. This also extends to pretending that I'm a game developer
-        every now and again.
+        functional tech like Haskell. This sometimes extends to pretending that I'm a game
+        developer every now and again.
       </p>
       <p className="nudge-down">
-        I also enjoy playing in and running various tabletop games such as Dungeons and Dragons.
+        I also enjoy playing in and running various tabletop games such as Dungeons and Dragons -
+        I'm even 3D printing and painting my own minis!
       </p>
     </div>
   </PageSection>

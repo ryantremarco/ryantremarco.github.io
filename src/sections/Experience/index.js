@@ -1,7 +1,7 @@
 import PageSection from "../../components/PageSection";
 
-const ExperiencePane = ({ company, date, children }) => (
-  <div className="columns experience-pane">
+const ExperiencePane = ({ company, date, children, className}) => (
+  <div className={`columns experience-pane ${className}`}>
     <div className="column is-2">
       <h2 className="title is-size-4 has-text-right-tablet">{company}</h2>
       <p className="subtitle has-text-right-tablet">{date}</p>
@@ -28,8 +28,7 @@ const Experience = () => (
           ceremonies.
         </p>
       </ExperiencePane>
-      <div className="experience-separator"/>
-      <ExperiencePane company="HMG" date="2017 🠒 2021">
+      <ExperiencePane className="nudge-down" company="HMG" date="2017 🠒 2021">
         <p>
           In this role, I was responsible for designing, developing, and maintaining a range of
           software products for internal customers in other government departments.
@@ -54,8 +53,7 @@ const Experience = () => (
           in choosing the correct tool for any particular piece of work.
         </p>
       </ExperiencePane>
-      <div className="experience-separator"/>
-      <ExperiencePane company="VLDB" date="2015">
+      <ExperiencePane className="nudge-down" company="VLDB" date="2015">
         <p>
         In my short time at VLDB, my primary responsibility was to create a mobile application for
         the marketing team for easily calculating pricing when dealing with customers on-site. To
