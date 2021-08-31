@@ -28,45 +28,39 @@ const Experience = () => (
           ceremonies.
         </p>
       </ExperiencePane>
+      <div className="experience-separator"/>
       <ExperiencePane company="HMG" date="2017 🠒 2021">
-        <ul>
-          <li>
-            Full-stack web development primarily using Java|SpringBoot
-            and JavaScript|React to create apps for internal customers.
-          </li>
-          <li>
-            Implementing good DevOps practices using OpenShift, AWS, and 
-            Jenkins.
-          </li>
-          <li>
-            Leading internal multiple product development teams, in both 
-            technical and Agile capacities.
-          </li>
-          <li>
-            Stakeholder management,requirements engineering, user acceptance testing, and UX research
-            and design.
-          </li>
-          <li>
-            Ensuring products adhere to internal and governmental accreditation standards.
-          </li>
-          <li>
-            Working as part of a dedicated innovation team, tasked with 
-            investigating potential application of new technologies to business 
-            benefit.
-          </li>
-        </ul>
+        <p>
+          In this role, I was responsible for designing, developing, and maintaining a range of
+          software products for internal customers in other government departments.
+        </p>
+        <p>
+          As a full-stack engineer, I spent time working at every layer of these applications, from
+          UX and front-end heavy projects, through to API work, and data-layer and
+          dev-ops/infrastructure management. The primary technologies I made use of over these
+          projects include Java/Spring Boot, JavaScript/React, and OpenShift hosted on AWS.
+        </p>
+        <p>
+          Within my teams, I organised and facilitated Agile Events, often taking on a leading role
+          to help steer development effort based on customer requirements and my team’s velocity
+          estimations.
+        </p>
+        <p>
+          Secondary to my official responsibilities, I also spent time improving inner-source
+          libraries and components used by my teams in order to improve software within the
+          organisation beyond my own products.
+          This also extended to helping to improve internal tooling, such as pushing for internal
+          supportof Rust’s package manager, Cargo, to give the developer community better freedom
+          in choosing the correct tool for any particular piece of work.
+        </p>
       </ExperiencePane>
+      <div className="experience-separator"/>
       <ExperiencePane company="VLDB" date="2015">
-        <ul>
-          <li>
-            Designed and developed a cross-platform Xamarin mobile app for an 
-            internal sales team to use with customers.
-          </li>
-          <li>
-            Wrote automation scripts in Visual Basic for extracting, processing, 
-            and revisualising customer data.
-          </li>
-        </ul>
+        <p>
+        In my short time at VLDB, my primary responsibility was to create a mobile application for
+        the marketing team for easily calculating pricing when dealing with customers on-site. To
+        do so, I made use of the Xamarin mobile framework and C#.
+        </p>
       </ExperiencePane>
     </div>
   </PageSection>
