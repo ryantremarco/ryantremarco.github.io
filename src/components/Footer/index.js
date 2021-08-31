@@ -7,7 +7,8 @@ const Footer = () => (
       <strong><a target="_" href="https://reactjs.org"> React </a></strong>
     </div>
     <div className="content has-text-centered is-size-3">
-      <a target="_" href="https://github.com/ryantremarco/ryantremarco.github.io"><i className="icon fab fa-github"/></a>
+      <a target="_" href="https://github.com/ryantremarco"><i className="icon fab fa-github"/></a>
+      <a target="_" href="https://www.linkedin.com/in/ryantremarco/"><i className="icon fab fa-linkedin"/></a>
     </div>
   </footer>
 )

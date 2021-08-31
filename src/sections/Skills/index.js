@@ -1,10 +1,10 @@
 import PageSection from "../../components/PageSection";
 
 const skills = [
-  {name: "Java; SpringBoot", tldr: "Web API development; testing"},
+  {name: "Go; Java; SpringBoot", tldr: "Web API development; testing"},
   {name: "JavaScript; React", tldr: "Web UI development; testing"},
-  {name: "SQL; Mongo; Elastic", tldr: "Data persistence; FGS; Optimisation"},
-  {name: "AWS; OpenShift", tldr: "Product deployment; CICD management"},
+  {name: "SQL; NoSQL; Elastic", tldr: "Data persistence; FGS; Optimisation"},
+  {name: "GCP; AWS; OpenShift", tldr: "Product deployment; CICD management"},
   {name: "Linux Systems", tldr: "Development platform; Automation"},
   {name: "Rust", tldr: "Hobbyist development "},
 ];
@@ -14,8 +14,9 @@ const Skills = () => (
     <div className="column is-10">
       <p className="has-text-centered">
         Over my years as a Software Engineer, I have made use of wide variety of programming
-        languages and technologies. Professionally, I primarily work with standard web development
-        stacks but as a hobbiest, I like to venture further afield into lower-level technology.
+        languages and technologies. More recently, I primarily work with Go deployed with GCP
+        infrastructure, but I have professionally developed accross the entire tech stack. As
+        a hobbiest, I like to venture further afield into lower-level technology.
       </p>
       <p className="has-text-centered nudge-down">
         Here are some highlights:

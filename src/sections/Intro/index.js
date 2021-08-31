@@ -13,7 +13,7 @@ const Intro = () => (
             I'm <span className="avoid-wrap">Ryan Tremarco.</span>
           </p>
           <p className="intro-para">
-            I'm a full-stack Software Engineer, currently based in the United Kingdom.<br/>
+            I'm a back-end Software Engineer, currently based in the United Kingdom.<br/>
             I specialise in complex, data-oriented problem solving.
           </p>
           <section className="section">
