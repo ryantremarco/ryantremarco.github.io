@@ -6,8 +6,8 @@ It is a simple single-page React app hosted via Github Pages. You can use the fo
 
 ```bash
 npm install #Install dependencies
-npm start #Start the app
-npm run css-watch #Optionally run in a second terminal- keeps sass rebuilding as well
+npm run css-watch #Or css-build, if you're not about hot-rebuilding
+npm start #Start the app, in another terminal if using css-watch above
 ```
 
 ### External credit
