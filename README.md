@@ -1,6 +1,6 @@
-# Ryan Tremarco - Perosnal Portfolio
+# Ryan Tremarco - Personal Portfolio
 
-This webpage is used as a personal portfolio for Ryan Tremarco (me!). Currently hosted at [tremarco.dev](tremarco.dev).
+This webpage is used as a personal portfolio for Ryan Tremarco (me!). Currently hosted at [tremarco.dev](https://tremarco.dev).
 
 It is a simple single-page React app hosted via Github Pages. You can use the following commands to get started:
 

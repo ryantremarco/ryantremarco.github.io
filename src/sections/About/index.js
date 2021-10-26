@@ -28,8 +28,7 @@ const About = () => (
     <div className="column is-4">
       <h2 className="title is-size-4">My Interests</h2>
       <p>
-        Because I intend to move to Japan in the near future, I spend a large amount of 
-        my free time learning Japanese. I still have a ways to go, but it's a fun journey.
+        After starting to pick it up last year, I spend a portion of my free time learning Japanese. I still have a ways to go, but it's a fun journey.
       </p>
       <p className="nudge-down">
         I enjoy playing around with technologies I don't get to use 
