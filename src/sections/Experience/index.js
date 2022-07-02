@@ -49,7 +49,7 @@ const Experience = () => (
           libraries and components used by my teams in order to improve software within the
           organisation beyond my own products.
           This also extended to helping to improve internal tooling, such as pushing for internal
-          supportof Rust’s package manager, Cargo, to give the developer community better freedom
+          support of Rust’s package manager, Cargo, to give the developer community better freedom
           in choosing the correct tool for any particular piece of work.
         </p>
       </ExperiencePane>
