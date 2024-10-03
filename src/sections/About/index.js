@@ -28,8 +28,8 @@ const About = () => (
     <div className="column is-4">
       <h2 className="title is-size-4">My Interests</h2>
       <p className="nudge-down">
-        I enjoy playing around with technologies I don't get to use 
-        <span className="avoid-wrap">day-to-day</span> ie. Rust, Ruby, and even some purely 
+        I enjoy playing around with technologies I don't get to use <span className="avoid-wrap">day-to-day</span> ie.
+        Rust, Ruby, and even some purely 
         functional tech like Haskell. I lean best by doing so I like to take part in events like 
         <a href="https://adventofcode.com"> Advent of Code</a> to practice and learn. This also extends to pretending that I'm a game
         developer every now and again using <a href="https://godotengine.org/">Godot</a>'s node system to enter Game Jams.
