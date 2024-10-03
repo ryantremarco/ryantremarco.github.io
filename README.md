@@ -10,6 +10,10 @@ npm run css-watch #Or css-build, if you're not about hot-rebuilding
 npm start #Start the app, in another terminal if using css-watch above
 ```
 
+## Requirements
+ - Node 14
+ - NPM 6
+
 ### External credit
 
 [Favicon](https://iconscout.com/icons/code) by [Iconscout](https://iconscout.com).
