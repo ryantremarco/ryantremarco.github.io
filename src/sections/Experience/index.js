@@ -33,7 +33,7 @@ const Experience = () => (
           I also put emphasis into creating and maintaining standards as well as shared packages and api clients
           for the backend chapter, improving the daily workflow for all back-end engineers at Benefex.
           This included standardising error formats across the service landscape, introducing OpenAPI specifications to our services,
-          and making use of and writing <code class="inline">go gen</code> code generation tools to reduce manually-written boilerplate accross the chapter.
+          and making use of and writing <code class="inline">go gen</code> code generation tools to reduce manually-written boilerplate across the chapter.
         </p>
       </ExperiencePane>
       <ExperiencePane className="nudge-down" company="VISFO" date="Jul 2021 - Jan 2023">
