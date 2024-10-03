@@ -7975,6 +7975,26 @@ ul li {
   padding-top: 5px;
   margin: 0; }
 
+.experience-pane .experience-details ul li {
+  font-size: 1em; }
+
 .icon {
   margin-left: 10px;
   margin-right: 10px; }
+
+code {
+  display: block;
+  background-color: #f5f5f5;
+  border: 1px solid #e1e1e1;
+  padding: 10px;
+  color: #333;
+  font-family: 'Courier New', Courier, monospace;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  word-wrap: break-word; }
+
+code.inline {
+  display: inline;
+  background-color: white;
+  padding: 2px 4px;
+  border-radius: 3px; }
