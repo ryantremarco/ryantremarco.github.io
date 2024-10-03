@@ -101,9 +101,9 @@ Array [
         <p
           className="intro-para"
         >
-          I'm a back-end Software Engineer, currently based in the United Kingdom.
+          I'm a back-end Software Engineer based in the United Kingdom.
           <br />
-          I specialise in complex, data-oriented problem solving.
+          I specialise in cloud-deployed Go microservice design and development.
         </p>
         <section
           className="section"
@@ -166,7 +166,7 @@ Array [
             </span>
              Software Eningeer working for med-tech firm 
             <a
-              href="https://visformatics.net/"
+              href="https://visfo.health/"
               target="_"
             >
                Visfo
@@ -238,7 +238,7 @@ Array [
             My Interests
           </h2>
           <p>
-            Because I intend to move to Japan in the near future, I spend a large amount of my free time learning Japanese. I still have a ways to go, but it's a fun journey.
+            After starting to pick it up last year, I spend a portion of my free time learning Japanese. I still have a ways to go, but it's a fun journey.
           </p>
           <p
             className="nudge-down"
@@ -419,22 +419,70 @@ Array [
               <h2
                 className="title is-size-4 has-text-right-tablet"
               >
-                VISFO
+                Benefex
               </h2>
               <p
                 className="subtitle has-text-right-tablet"
               >
-                2021 - ?
+                Jan 2023 - Sept 2024
               </p>
             </div>
             <div
               className="experience-details column is-9 content"
             >
               <p>
-                In my current role, I am responsible for writing API-layer applications in Golang using Test-Driven Development practices. I develop and maintain the GCP-based infrastructure underpinning those applications in dev-ops fashion.
+                As a senior engineer at Benefex, I led multiple teams and projects from conception to final delivery to customers, taking resposibility for the technical leadership of design and implementation while upskilling my more junior team members.
               </p>
               <p>
-                In order to help with managing rapidly changing customer requirements, I have been responsible for implementing Agile practices into an environment where there were no official ways-of-working, and still maintain a guiding role during events and ceremonies.
+                Notable projects include:
+                <ul>
+                  <li>
+                    Centralised notifications service for the whole platform supporting email, web, mobile, and Microsoft Teams push Notifications
+                  </li>
+                  <li>
+                    Microsoft Teams app and accompanying bot built using the Azure Bot framework for notificaiton delivery and product interaction
+                  </li>
+                  <li>
+                    A product provisioning service + global navigation wrapper to enable customers to expand usage of Benefex products globally (with an average 33% revenue increase per customer)
+                  </li>
+                </ul>
+              </p>
+              <p>
+                I also put emphasis into creating and maintaining standards as well as shared packages and api clients for the backend chapter, improving the daily workflow for all back-end engineers at Benefex. This included standardising error formats accross the service landscape, introducing OpenAPI specifications to our services, and making use of and writing 
+                <code
+                  class="inline"
+                >
+                  go gen
+                </code>
+                 code generation tools to reduce manually-written boilerplate accross the chapter.
+              </p>
+            </div>
+          </div>
+          <div
+            className="columns experience-pane nudge-down"
+          >
+            <div
+              className="column is-2"
+            >
+              <h2
+                className="title is-size-4 has-text-right-tablet"
+              >
+                VISFO
+              </h2>
+              <p
+                className="subtitle has-text-right-tablet"
+              >
+                Jul 2021 - Jan 2023
+              </p>
+            </div>
+            <div
+              className="experience-details column is-9 content"
+            >
+              <p>
+                At VISFO, I was responsible for writing API-layer applications in Golang using Test-Driven Development practices. I also developed and maintained the GCP-based infrastructure underpinning those applications with Terraform.
+              </p>
+              <p>
+                In order to help with managing rapidly changing customer requirements, I pushed for and implemented Agile practices into an environment where there were no official ways-of-working, and maintained a guiding role during events and ceremonies.
               </p>
             </div>
           </div>
@@ -452,7 +500,7 @@ Array [
               <p
                 className="subtitle has-text-right-tablet"
               >
-                2017 - 2021
+                Sept 2017 - Jul 2021
               </p>
             </div>
             <div
@@ -468,32 +516,7 @@ Array [
                 Within my teams, I organised and facilitated Agile Events, often taking on a leading role to help steer development effort based on customer requirements and my team’s velocity estimations.
               </p>
               <p>
-                Secondary to my official responsibilities, I also spent time improving inner-source libraries and components used by my teams in order to improve software within the organisation beyond my own products. This also extended to helping to improve internal tooling, such as pushing for internal supportof Rust’s package manager, Cargo, to give the developer community better freedom in choosing the correct tool for any particular piece of work.
-              </p>
-            </div>
-          </div>
-          <div
-            className="columns experience-pane nudge-down"
-          >
-            <div
-              className="column is-2"
-            >
-              <h2
-                className="title is-size-4 has-text-right-tablet"
-              >
-                VLDB
-              </h2>
-              <p
-                className="subtitle has-text-right-tablet"
-              >
-                2015
-              </p>
-            </div>
-            <div
-              className="experience-details column is-9 content"
-            >
-              <p>
-                In my short time at VLDB, my primary responsibility was to create a mobile application for the marketing team for easily calculating pricing when dealing with customers on-site. To do so, I made use of the Xamarin mobile framework and C#.
+                Secondary to my official responsibilities, I also spent time improving inner-source libraries and components used by my teams in order to improve software within the organisation beyond my own products. This also extended to helping to improve internal tooling, such as pushing for internal support of Rust’s package manager, Cargo, to give the developer community better freedom in choosing the correct tool for any particular piece of work.
               </p>
             </div>
           </div>
@@ -522,9 +545,7 @@ Array [
           <p
             className="has-text-centered"
           >
-            I'm currently looking for exciting  work opportunities in Japan.
-            <br />
-            If you think you have something I may be interested in (or you just want to say hi) please don't hesitate to send me a message.
+            I'm not actively looking for new opportunities right now, but if you think you have something I may be interested in (or you just want to say hi) please don't hesitate to send me a message.
           </p>
           <section
             className="section"
