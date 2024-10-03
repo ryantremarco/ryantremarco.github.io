@@ -25,14 +25,14 @@ const Experience = () => (
           Notable projects include:
             <ul>
               <li>Centralised notifications service for the whole platform supporting email, web, mobile, and Microsoft Teams push Notifications</li>
-              <li>Microsoft Teams app and accompanying bot built using the Azure Bot framework for notificaiton delivery and product interaction</li>
+              <li>Microsoft Teams app and accompanying bot built using the Azure Bot framework for notification delivery and product interaction</li>
               <li>A product provisioning service + global navigation wrapper to enable customers to expand usage of Benefex products globally (with an average 33% revenue increase per customer)</li>
             </ul>
         </p>
         <p>
           I also put emphasis into creating and maintaining standards as well as shared packages and api clients
           for the backend chapter, improving the daily workflow for all back-end engineers at Benefex.
-          This included standardising error formats accross the service landscape, introducing OpenAPI specifications to our services,
+          This included standardising error formats across the service landscape, introducing OpenAPI specifications to our services,
           and making use of and writing <code class="inline">go gen</code> code generation tools to reduce manually-written boilerplate accross the chapter.
         </p>
       </ExperiencePane>
