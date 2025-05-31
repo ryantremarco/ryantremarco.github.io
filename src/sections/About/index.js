@@ -6,7 +6,7 @@ const About = () => (
       <h2 className="title is-size-4">Me</h2>
       <p>
         Hello! I'm Ryan, a <span className="avoid-wrap">back-end</span> Software Eningeer currently
-        using Go and looking for remote-first work in the UK.
+        using Go and working for <a href="https://www.vet-ai.com">Vet-AI</a>.
       </p>
       <p className="nudge-down">
         After completing a <span className="avoid-wrap">government-sponsored</span> apprenticeship
@@ -39,7 +39,7 @@ const About = () => (
         but I hope to pick up some Italian in the future too.
       </p>
       <p className="nudge-down">
-        I also enjoy playing in and running various tabletop games such as Dungeons and Dragons, Mothership, and Warhammer -
+        I also enjoy playing in and running various tabletop games such as Mothership, Dungeons and Dragons, and Warhammer -
         I'm even 3D printing and painting my own minis!
       </p>
     </div>

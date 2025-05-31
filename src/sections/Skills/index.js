@@ -1,7 +1,7 @@
 import PageSection from "../../components/PageSection";
 
 const skills = [
-  {name: "Go; Java; SpringBoot", tldr: "Web API development; testing"},
+  {name: "Go; Encore; Java; SpringBoot", tldr: "Web API development; testing; infrastructure"},
   {name: "JavaScript; React", tldr: "Web UI development; testing"},
   {name: "SQL; NoSQL; Elastic", tldr: "Data persistence; FGS; Optimisation"},
   {name: "GCP; AWS; OpenShift", tldr: "Product deployment; CICD management"},
@@ -15,7 +15,7 @@ const Skills = () => (
       <p className="has-text-centered">
         Over my years as a Software Engineer, I have made use of wide variety of programming
         languages and technologies. More recently, I primarily work with Go deployed with GCP
-        infrastructure, but I have professionally developed accross the entire tech stack. As
+        infrastructure using the <a href="https://encore.dev/go">Encore</a> framwork, but I have professionally developed accross the entire tech stack. As
         a hobbiest, I like to venture further afield into lower-level technology.
       </p>
       <p className="has-text-centered nudge-down">
@@ -23,7 +23,7 @@ const Skills = () => (
       </p>
       <div className="columns is-multiline is-centered skills-container">
         {skills.map(({name, tldr}) => (
-          <div className="column is-4 has-text-centered nudge-down" key={name}>
+          <div className="column is-5 has-text-centered nudge-down" key={name}>
             <h2 className="title is-size-4"><strong>{name}</strong></h2>
             <p className="subtitle">
               {tldr}

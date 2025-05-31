@@ -15,7 +15,21 @@ const ExperiencePane = ({ company, date, children, className}) => (
 const Experience = () => (
   <PageSection title="Experience" id="experience">
     <div className="column is-12">
-      <ExperiencePane company="Benefex" date="Jan 2023 - Sept 2024">
+    <ExperiencePane company="Vet-AI" date="Nov 2024 - Present">
+        <p>
+          In my current role of Senior Software Engineer at Vet-AI, I build APIs in Go using the Encore framework to
+          manage our resources and infrastructure.
+        </p>
+        <p>
+          Primarily, I have been creating and integrating the first of many AI tools into the Vet-AI product suite. These include:
+          <ul>
+            <li>Creating and integrating clinically-validated B2C veterinary AI agents into new Chat offering using Langchain in Python and Gemini as a base model.</li>
+            <li>Building a specialised RAG for triaging customers pre-vet consultation, leveraging business-specific knowledge bases and cutting down consultation times.</li>
+            <li>Integrating custom-built Vertex AI predictive models for analysing user-submitted images and videos to assist in automated triage in Symptom Checker product.</li>
+          </ul>
+        </p>
+      </ExperiencePane>
+      <ExperiencePane className="nudge-down" company="Benefex" date="Jan 2023 - Sept 2024">
         <p>
           As a senior engineer at Benefex, I led multiple teams and projects from conception to final delivery to
           customers, taking resposibility for the technical leadership of design and implementation while
